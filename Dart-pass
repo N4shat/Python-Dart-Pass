@@ -1,0 +1,37 @@
+//Q1 in comment
+//Q2:-
+
+class Animal{
+  var Name;
+  var Sound;
+  printName(){
+    print("The name is ${Name}");
+  }
+  printSound(){
+    print("The sound is ${Sound}");
+  }
+}
+class Dog extends Animal{
+  var Name = "dog";
+  var Sound = "how";
+}
+class Cat extends Animal{
+  var Name = "cat";
+  var Sound = "mew";
+}
+class Caw extends Animal{
+  var Name = "caw";
+  var Sound = "hou";
+}
+main() {
+  var ob= new Dog();
+  ob.printName();
+  ob.printSound();
+  var ob1= new Cat();
+  ob1.printName();
+  ob1.printSound();
+  var ob2= new Caw();
+  ob2.printName();
+  ob2.printSound();
+}
+
