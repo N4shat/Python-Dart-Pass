@@ -1,0 +1,9 @@
+def even_or_odd():
+    size=int(input("enter size : "))
+    Ls=[int(input () )  for i in range(size) ]
+    for i in Ls:
+        if i%2==0:
+            print(i,"is even")
+        else:
+            print(i,"is odd")
+even_or_odd()
